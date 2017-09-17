@@ -1,0 +1,22 @@
+body {
+  /* give the page a nice blue background */
+  background-color: #acc;
+}
+
+#modal {
+  /* set modal not visible at first */
+  display: none;
+
+  /* put it at the top of the screen on top of the content */
+  position: fixed;
+  top: 20px;
+
+  /* set up sizing and spacing */
+  left: 10%;
+  width: 80%;
+  right: 10%;
+
+  /* make the content look a bit nicer */
+  padding: 15px;
+  background-color: white;
+}
