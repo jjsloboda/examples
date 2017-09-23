@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Jukebox</title>
+    <script src='jukebox.js'></script>
+    <script src='index.js'></script>
+  </head>
+  <body>
+    <h1>Jukebox</h1>
+    <h2>Song list</h2>
+    <ol id="song_list">
+    </ol>
+    <button onclick="jukebox.play()">Play</button>
+    <button onclick="jukebox.pause()">Pause</button>
+    <button onclick="jukebox.stop()">Stop</button>
+    <button onclick="jukebox.playRandomSong()">Play Random Song</button>
+    <button onclick="jukebox.nextTrack()">Next Track</button>
+    <button onclick="jukebox.prevTrack()">Previous Track</button>
+    <div>
+      <label>Song Name</label>
+      <input type="text" id="song_name"></input>
+      <label>Song Filename</label>
+      <input type="text" id="song_filename"></input>
+      <button onclick="addSong(jukebox)">Add Song</button>
+      <script>refreshSongList(jukebox);</script>
+    </div>
+  </body>
+</html>
