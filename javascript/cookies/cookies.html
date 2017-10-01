@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Cookies cookies yum yum</title>
+    <link rel='stylesheet' href='cookies.css' />
+  </head>
+  <body>
+    howdy chicka dee dee
+    <div>
+      <div class='cookie-block'>
+        <strong>Sugar</strong>
+        <div class='counter' id='num_sugar'>0</div>
+        <button onclick='eat("sugar")'>+</button>
+      </div>
+      <div class='cookie-block'>
+        <strong>Chocolate</strong>
+        <div class='counter' id='num_chocolate'>0</div>
+        <button onclick='eat("chocolate")'>+</button>
+      </div>
+      <div class='cookie-block'>
+        <strong>Lemon</strong>
+        <div class='counter' id='num_lemon'>0</div>
+        <button onclick='eat("lemon")'>+</button>
+      </div>
+    </div>
+
+    <button onclick='clearCookies(); updateAll();'>clear</button>
+
+    <script src='cookieslib.js'></script>
+    <script src='cookies.js'></script>
+  </body>
+</html>

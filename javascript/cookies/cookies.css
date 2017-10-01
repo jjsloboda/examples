@@ -1,0 +1,19 @@
+.cookie-block {
+  display: inline-block;
+  width: 30%;
+}
+
+.cookie-block strong {
+  color: red;
+}
+
+.cookie-block button {
+  height: 3rem;
+  width: 3rem;
+  font-size: 2rem;
+}
+
+.cookie-block .counter {
+  color: salmon;
+  font-size: 2rem;
+}
